@@ -5,4 +5,6 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
 }
 
-
+.wrapper {
+    text-align: center;
+}

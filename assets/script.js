@@ -15,6 +15,15 @@
 // event function to grab the value of the button clicked and compare to answer.  If same recall question function for the next question, else decrement timer and recall question function for next question
 
 // function to end quiz and capture time remaining as high score.  Store the highscores in local storage.  Dont forget to format the data coming back from high scores in descending order
+btn
+
+function startTime (){
+    setTimeout(alert"time is up", 3000);
+}
+
+
+
+
 
 
 var questions = [
