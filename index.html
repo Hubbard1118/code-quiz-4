@@ -11,20 +11,23 @@
     <div class="wrapper">
         <div class="quiz-container">
             <div class="quiz-head">
-                <h1 class="quiz-title">Code Quiz Game</h1>
+                <h1 class="quiz-title">Code Quiz</h1>
                 <div class="quiz-score">
                     <span id="correct-score">0</span>/<span id = "total-questions">10</span>
                 </div>
-
+                
                 <div class="timer">Time Remaining</div>
-                <button>Start</button>
-
+                <div id="time"></div>
+                <button id="timeStart">Start</button>
+                
                 <div class="quiz-body">
-                    <h2 class="quiz-question" id="question">What is the full form of HTTP?</h2>
+                    <h2 class="quiz-question" id="question"></h2>
+                    <button id = "submit" >Submit</button>
                 </div>
             </div> 
         </div>
     </div>
-
+    
 </body>
+<script src="/assets/script.js"></script>
 </html> 
